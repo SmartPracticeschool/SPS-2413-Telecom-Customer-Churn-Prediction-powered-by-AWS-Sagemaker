@@ -13,6 +13,3 @@ Build & Deploy a Machine Learning model to predict the customer churn using Amaz
 
 Create a python - flask application that interacts with the model deployed on AWS Sagemaker with the help of AWS API Gateway and AWS Lambda Services.
 
-Proposed Technical Architecture
-
-![Image of Architecture](https://drive.google.com/file/d/1cB2TUtNNAXFqzryRp8l5MymhCxkmSivK/view?usp=sharing)
