@@ -41,8 +41,8 @@ def index():
         j = json.dumps(j, indent=4)
         headers = {
             'Content-Type': 'application/json',
-            'X-Amz-Date':'20201011T145117Z',
-            'Authorization': 'AWS4-HMAC-SHA256&X-Amz-Credential=ASIASHYF3JTJ4OLBFSUO/2F20201011/2Fus-east-1/2Fexecute-api/2Faws4_request, SignedHeaders=host;Signature=e309e6eb6ae74a0340705a10fb027fa49ceb7ff65de6f1f0adcefa1f77ec8171'
+            'X-Amz-Date': '20201011T202720Z',
+            'Authorization': 'AWS4-HMAC-SHA256 Credential=AKIAXDU6UJCNJCSRKBEY/20201011/us-east-2/execute-api/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date, Signature=40f3b62bf12576141e4055f3b9163f0122c0b6ab46099b9b64d9fca7763267bb'
 
         }
         r = requests.post(
